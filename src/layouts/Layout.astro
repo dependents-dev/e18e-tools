@@ -16,10 +16,7 @@ const { title, description } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -35,8 +32,8 @@ const { title, description } = Astro.props;
   </head>
 
   <body
-    class="bg-slate-50 dark:bg-slate-950 min-h-screen font-sans text-slate-900 dark:text-slate-100 transition-colors duration-300"
+    class="min-h-screen h-auto bg-neutral-200 dark:bg-black text-neutral-800 dark:text-neutral-300 p-10 flex flex-col items-center"
   >
-    <slot />
+    <main class="w-full"><slot /></main>
   </body>
 </html>
