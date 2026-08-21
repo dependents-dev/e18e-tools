@@ -22,7 +22,7 @@
     "esbuild": "0.28.2",
     "lightningcss": "1.33.0",
     "semver": "7.8.5",
-    "unstorage": "2.0.0-alpha.7"
+    "unstorage": "2.0.0-alpha.8"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.3.3",
