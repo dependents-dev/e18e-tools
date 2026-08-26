@@ -19,19 +19,19 @@
   "overrides": {
     "@jridgewell/trace-mapping": "0.3.31",
     "esbuild": "0.28.2",
-    "find-process": "npm:find-proc@0.1.0",
+    "js-yaml": "npm:neoyaml@0.1.1",
     "lightningcss": "1.33.0",
     "unstorage": "2.0.0-alpha.9"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.3.3",
-    "astro": "7.2.4",
+    "astro": "7.2.8",
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.10",
     "@gameroman/config": "0.2.9",
     "typescript": "7.0.2",
-    "wrangler": "4.125.0"
+    "wrangler": "4.126.0"
   }
 }
