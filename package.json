@@ -19,7 +19,7 @@
   "overrides": {
     "@jridgewell/trace-mapping": "0.3.31",
     "esbuild": "0.28.2",
-    "js-yaml": "npm:neoyaml@0.1.1",
+    "js-yaml": "npm:neoyaml@0.1.2",
     "lightningcss": "1.33.0",
     "unstorage": "2.0.0-alpha.9"
   },
