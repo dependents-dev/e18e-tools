@@ -20,7 +20,7 @@
   "overrides": {
     "@jridgewell/trace-mapping": "0.3.31",
     "esbuild": "0.28.2",
-    "js-yaml": "npm:neoyaml@0.1.2",
+    "js-yaml": "npm:neoyaml@0.2.0",
     "lightningcss": "1.33.0",
     "unstorage": "2.0.0-alpha.9",
   },
@@ -509,7 +509,7 @@
 
     "jiti": ["jiti@2.7.0", "", { "bin": { "jiti": "lib/jiti-cli.mjs" } }, "sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ=="],
 
-    "js-yaml": ["neoyaml@0.1.2", "", {}, "sha512-5nvOb4w9Co74IxHfUaP18nF/oKweA4BJCTjiT6iNzcQp2s0ILb7SYf6eUFVeRvJsKgTwulPdtqaAzNh7I5+pzQ=="],
+    "js-yaml": ["neoyaml@0.2.0", "", {}, "sha512-OhyH8IjUmsAUwcFCkvM/qNDpEGuNj+tpg5BX3V8qdWrF0zIlbQaB5oH+aXjxkzaa8cpZoNm0q4iNMLD6zOlk4Q=="],
 
     "jsonc-parser": ["jsonc-parser@3.3.1", "", {}, "sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ=="],
 
