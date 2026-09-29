@@ -22,7 +22,7 @@
     "esbuild": "0.28.2",
     "js-yaml": "npm:neoyaml@0.2.0",
     "lightningcss": "1.33.0",
-    "sharp": "0.35.4",
+    "sharp": "0.35.5",
     "unstorage": "2.0.0-alpha.10"
   },
   "dependencies": {
