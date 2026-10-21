@@ -23,7 +23,7 @@
     "js-yaml": "npm:neoyaml@0.2.0",
     "lightningcss": "1.33.0",
     "sharp": "0.35.4",
-    "unstorage": "2.0.0-alpha.10"
+    "unstorage": "2.0.0-alpha.11"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.3.3",
