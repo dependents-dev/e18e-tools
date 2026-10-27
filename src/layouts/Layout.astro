@@ -31,9 +31,32 @@ const { title, description } = Astro.props;
     <link rel="canonical" href={canonical} />
   </head>
 
-  <body
-    class="min-h-screen h-auto bg-neutral-200 dark:bg-black text-neutral-800 dark:text-neutral-300 p-10 flex flex-col items-center"
-  >
-    <main class="w-full"><slot /></main>
+  <body>
+    <main><slot /></main>
   </body>
 </html>
+
+<style>
+body {
+  min-height: 100vh;
+  height: auto;
+  background-color: #e5e5e5;
+  color: #262626;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #d4d4d4;
+  }
+}
+</style>

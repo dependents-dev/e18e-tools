@@ -7,17 +7,56 @@ interface Props {
 }
 
 const { title, href, internal } = Astro.props;
-const external = !internal;
+
+const target = internal ? undefined : "_blank";
+const rel = internal ? undefined : "noopener noreferrer";
 ---
 
-<a
-  class="block w-full rounded-xl border-2 border-neutral-400 dark:border-neutral-600 bg-white dark:bg-neutral-900 px-5 py-3 hover:border-neutral-600 dark:hover:border-neutral-400 transition-colors"
-  {href}
-  target={external ? "_blank" : undefined}
-  rel={external ? "noopener noreferrer" : undefined}
-  ><div
-    class="font-medium text-lg sm:text-xl text-neutral-900 dark:text-neutral-100"
-  >
-    {title}
-  </div></a
->
+<a {href} {target} {rel}><div class="card-title">{title}</div></a>
+
+<style>
+a {
+  display: block;
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 2px solid #a3a3a3;
+  background-color: #ffffff;
+  padding: 0.75rem 1.25rem;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #525252;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #171717;
+}
+
+@media (min-width: 640px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    border-color: #525252;
+    background-color: #171717;
+  }
+
+  a:hover {
+    border-color: #a3a3a3;
+  }
+
+  .card-title {
+    color: #f5f5f5;
+  }
+}
+</style>
