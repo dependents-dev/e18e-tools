@@ -17,18 +17,15 @@
     "test": "bun test"
   },
   "overrides": {
+    "@emnapi/core": "1.11.3",
     "@emnapi/runtime": "1.11.3",
     "@jridgewell/trace-mapping": "0.3.31",
     "esbuild": "0.28.2",
-    "js-yaml": "npm:neoyaml@0.2.0",
-    "lightningcss": "1.33.0",
     "sharp": "0.35.5",
     "unstorage": "2.0.0-beta.0"
   },
   "dependencies": {
-    "@tailwindcss/vite": "4.3.3",
-    "astro": "7.3.2",
-    "tailwindcss": "4.3.3"
+    "astro": "7.4.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.3",

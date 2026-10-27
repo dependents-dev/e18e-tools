@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
 
   "name": "e18e-tools",
-  "compatibility_date": "2026-07-22",
+  "compatibility_date": "2026-10-12",
 
   "assets": {
     "directory": "./dist",
