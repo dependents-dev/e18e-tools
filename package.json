@@ -25,7 +25,7 @@
     "unstorage": "2.0.0-beta.0"
   },
   "dependencies": {
-    "astro": "7.4.3"
+    "astro": "7.4.4"
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.3",
