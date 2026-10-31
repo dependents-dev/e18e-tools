@@ -28,7 +28,7 @@
     "astro": "7.4.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.3",
+    "@biomejs/biome": "2.6.4",
     "@gameroman/config": "0.3.0",
     "typescript": "7.0.2",
     "wrangler": "4.156.0"
